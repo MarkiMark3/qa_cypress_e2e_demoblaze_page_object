@@ -1,8 +1,7 @@
 /// <reference types='cypress' />
 import { faker } from '@faker-js/faker';
-import CheckoutFormPageObject from '../support/pages/checkoutForm.pageObject';
-import HomeAndCataloguePageObject
-  from '../support/pages/homeCatalogue.pageObject';
+// eslint-disable-next-line max-len
+import { HomeAndCataloguePageObject, CheckoutFormPageObject } from '../support/pages/homeCatalogue.pageObject';
 
 const homePage = new HomeAndCataloguePageObject();
 const checkout = new CheckoutFormPageObject();
